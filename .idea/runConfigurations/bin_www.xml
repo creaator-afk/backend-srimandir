@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bin\www" type="NodeJSConfigurationType" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+    <envs>
+      <env name="ACCESS_TOKEN_SECRET" value="LOCAL_SECRET_XXXX" />
+      <env name="CORS_ORIGIN" value="*" />
+      <env name="DB_NAME" value="srimandir" />
+      <env name="ENV" value="local" />
+      <env name="MONGO_URI" value="mongodb+srv://vercel-admin-user-668f787c69c88962f2f6dd7b:fMkPepNPp5bk61tJ@dailyblogdata.s30xe0d.mongodb.net/myFirstDatabase?retryWrites=true&amp;w=majority" />
+      <env name="PORT" value="8000" />
+      <env name="REFRESH_TOKEN_SECRET" value="LOCAL_SECRET_YYYY" />
+      <env name="STRIPE_SECRET_KEY" value="sk_test_51PghhFHX6mUjh7uRXWcACvOz9pByCFn4esFXXa5p4ED1iCLD57aJltTwmd8HkTaBjPxA6ZG8Y7bP5UhEVfHBQ2ur00JsLVEvO4" />
+    </envs>
+    <EXTENSION ID="com.intellij.lang.javascript.buildTools.npm.rc.StartBrowserRunConfigurationExtension">
+      <browser url="http://localhost:3000/" />
+    </EXTENSION>
+    <method v="2" />
+  </configuration>
+</component>
